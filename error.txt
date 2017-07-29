@@ -1,0 +1,26 @@
+Installing facter, 2.4.6
+Fetching gem metadata from https://rubygems.org/..........
+Fetching version metadata from https://rubygems.org/.
+Resolving dependencies...
+Your lockfile was created by an old Bundler that left some things out.
+You can fix this by adding the missing gems to your Gemfile, running bundle install, and then removing the gems from your Gemfile.
+The missing gems are:
+* CFPropertyList depended upon by facter
+Using bundler 1.14.0.pre.2
+/Users/chrismo/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/bundler-1.14.0.pre.2/lib/bundler/worker.rb:43:in `pop': No live threads left. Deadlock? (fatal)
+	from /Users/chrismo/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/bundler-1.14.0.pre.2/lib/bundler/worker.rb:43:in `deq'
+	from /Users/chrismo/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/bundler-1.14.0.pre.2/lib/bundler/installer/parallel_installer.rb:127:in `process_specs'
+	from /Users/chrismo/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/bundler-1.14.0.pre.2/lib/bundler/installer/parallel_installer.rb:98:in `call'
+	from /Users/chrismo/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/bundler-1.14.0.pre.2/lib/bundler/installer/parallel_installer.rb:73:in `call'
+	from /Users/chrismo/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/bundler-1.14.0.pre.2/lib/bundler/installer.rb:199:in `install_in_parallel'
+	from /Users/chrismo/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/bundler-1.14.0.pre.2/lib/bundler/installer.rb:166:in `install'
+	from /Users/chrismo/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/bundler-1.14.0.pre.2/lib/bundler/installer.rb:80:in `run'
+	from /Users/chrismo/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/bundler-1.14.0.pre.2/lib/bundler/installer.rb:24:in `install'
+	from /Users/chrismo/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/bundler-1.14.0.pre.2/lib/bundler/inline.rb:63:in `gemfile'
+	from /Users/chrismo/modev/rgdb/rgdb.rb:34:in `block (2 levels) in <top (required)>'
+	from /Users/chrismo/modev/rgdb/rgdb.rb:28:in `each_row'
+	from /Users/chrismo/modev/rgdb/rgdb.rb:28:in `block in <top (required)>'
+	from /Users/chrismo/modev/rgdb/rgdb.rb:27:in `exec'
+	from /Users/chrismo/modev/rgdb/rgdb.rb:27:in `<top (required)>'
+	from -e:1:in `load'
+	from -e:1:in `<main>'
